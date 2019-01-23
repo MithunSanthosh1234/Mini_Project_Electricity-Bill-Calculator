@@ -38,7 +38,7 @@ def industry(units):
         units=units-100
         pay=units*6.50
         print("You have to pay:",pay)
-    elif(units>201 ana units<=500):
+    elif(units>201 and units<=500):
         units=units-100
         pay=units*8
     else:
